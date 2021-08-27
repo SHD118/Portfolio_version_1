@@ -1,0 +1,84 @@
+#banner {
+  display: block;
+  height: 800px;
+  width: 100%;
+
+  background-size: cover;
+  background-image: url("C:/Users/Jojo/.ssh/du-den-virt-fsf-pt-08-2021-u-c/02-Advanced-CSS/02-Homework/Assets/photo.jpg");
+
+  background-position: center;
+}
+li {
+  color: black;
+}
+header {
+  float: left;
+  background-color: gray;
+  align-items: center;
+  width: 100%;
+  padding: 30px, 30px;
+  opacity: 0.6;
+
+  list-style: none;
+}
+
+nav {
+  float: right;
+  top: 100%;
+}
+.nav_items {
+  list-style: none;
+  color: black;
+}
+.nav_items li {
+  display: inline-block;
+  color: black;
+
+  margin: 0;
+}
+.nav_items li a:hover {
+  color: crimson;
+}
+.h1_name {
+  float: left;
+
+  color: black;
+  cursor: pointer;
+}
+#code {
+  /* display: flex; */
+  float: right;
+
+  font-weight: bolder;
+  font-size: 8vw;
+  font-family: "Hina Mincho", serif;
+  margin-right: 6%;
+  /* position: relative; */
+  /* position: relative; */
+
+  /* font-family: url("C:/Users/Jojo/.ssh/du-den-virt-fsf-pt-08-2021-u-c/02-Advanced-CSS/02-Homework/Assets/font/PressStart2P-Regular.ttf"); */
+}
+.move {
+  float: right;
+}
+
+.under_code {
+  display: flex;
+  order: 2;
+  /* width: 300px;
+  height: 50px; */
+  float: right;
+}
+
+.about_me {
+  text-align: center;
+  font-size: 4vh;
+  background-color: cadetblue;
+  color: cornsilk;
+}
+.ul_alien {
+  /* display: flex; */
+  display: inline-flex;
+  list-style: none;
+  justify-content: right;
+}
