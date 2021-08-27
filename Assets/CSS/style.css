@@ -24,15 +24,19 @@ header {
 
 nav {
   float: right;
+  margin-right: 4%;
   top: 100%;
 }
 .nav_items {
   list-style: none;
-  color: black;
+  color: black !important;
+  font-size: 30px;
 }
 .nav_items li {
   display: inline-block;
   color: black;
+  justify-content: space-between;
+  color: black !important;
 
   margin: 0;
 }
@@ -93,4 +97,14 @@ nav {
   display: inline-flex;
   list-style: none;
   justify-content: right;
+}
+.work {
+}
+.work ul {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.work li {
+  flex-direction: column;
+  flex-wrap: wrap;
 }
