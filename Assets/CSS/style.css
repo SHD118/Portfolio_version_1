@@ -47,27 +47,39 @@ nav {
 }
 #code {
   /* display: flex; */
-  float: right;
-
+  /* float: right; */
+  order: 1;
   font-weight: bolder;
   font-size: 8vw;
   font-family: "Hina Mincho", serif;
-  margin-right: 6%;
+  color: #404040;
+  /* align-self: center; */
+
+  /* margin-right: 6%; */
   /* position: relative; */
   /* position: relative; */
 
   /* font-family: url("C:/Users/Jojo/.ssh/du-den-virt-fsf-pt-08-2021-u-c/02-Advanced-CSS/02-Homework/Assets/font/PressStart2P-Regular.ttf"); */
 }
 .move {
+  display: flex;
+  display: block;
   float: right;
+  align-self: center;
+  margin-top: 15vw;
+  padding-right: 8vw;
 }
 
 .under_code {
-  display: flex;
-  order: 2;
-  /* width: 300px;
-  height: 50px; */
+  /* order: 2; */
   float: right;
+  padding-top: 6%;
+  /* display: flex;
+  order: 2; */
+  width: 300px;
+  height: 50px;
+  color: #989898;
+  /* float: right; */
 }
 
 .about_me {
