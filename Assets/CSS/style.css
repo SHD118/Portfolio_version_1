@@ -2,14 +2,23 @@
   text-decoration: none;
   color: unset;
 }
-
+body {
+  /* background-image: linear-gradient(
+    to right,
+    #3b1b96,
+    #8f6fe8,
+    #5a29e3,
+    #3e3063,
+    #4620b0
+  ); */
+}
 #banner {
   display: block;
   height: 800px;
   width: 100%;
 
   background-size: cover;
-  background-image: url("C:/Users/Jojo/.ssh/du-den-virt-fsf-pt-08-2021-u-c/02-Advanced-CSS/02-Homework/Assets/photo.jpg");
+  background-image: url("./././photo.jpg");
 
   background-position: center;
 }
@@ -173,7 +182,7 @@ a {
 }
 
 .img_hovering {
-  background-image: url("C:/Users/Jojo/.ssh/homeworks/Homework-2/Portfolio/Assets/img/port.jpg");
+  background-image: url("./././port.jpg");
   padding: 4%;
   height: 20vw;
   width: 20vw;
