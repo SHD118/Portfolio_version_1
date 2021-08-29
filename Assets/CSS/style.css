@@ -115,3 +115,14 @@ a {
   flex-grow: 1;
   flex-wrap: wrap;
 }
+.andorid_h2 {
+  font-size: medium;
+}
+h2 {
+  font-size: small;
+}
+.img_work {
+  padding: 4%;
+  height: 100%;
+  width: 100%;
+}
