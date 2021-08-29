@@ -1,3 +1,5 @@
+.root {
+}
 #banner {
   display: block;
   height: 800px;
@@ -132,19 +134,49 @@ a {
   position: relative;
 }
 
-.img_work:hover {
+.img_hovering:hover {
   opacity: 0.2;
-  background-color: gray;
-  background-size: 110%;
-  content: attr(data-tooltip);
+  background-color: pink;
+  background-size: 150%;
+  background-size: cover;
+  top: -0.25rem;
+  content: attr(data-arr);
 }
-/* .img_work::after {
-  position: absolute;
-  content: attr(data-tooltip);
+
+.work_div p {
+  color: blue;
+}
+
+.img_hovering {
+  background-image: url("C:/Users/Jojo/.ssh/homeworks/Homework-2/Portfolio/Assets/img/port.jpg");
+  padding: 4%;
+  height: 20vw;
+  width: 20vw;
+  transition: 0.5s;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 20px 0 rgba(0.5, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 10px;
+
+  /* position: absolute;
+  content: "attr(data-tooltip)";
   color: black;
   font-size: 110px;
   top: -0.25rem;
   height: 25px;
   width: 25px;
-  background-color: blue;
+  background-color: blue; */
+}
+.data_text {
+  opacity: 0;
+}
+.img_hovering:hover .data_text {
+  opacity: 1;
+  z-index: 10;
+}
+/* .data_text:hover {
+  opacity: 1;
 } */
