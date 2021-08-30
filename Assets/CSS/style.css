@@ -188,6 +188,7 @@ a {
 
   color: white;
 }
+
 .andorid_h2 {
   font-size: 5vw;
   position: absolute;
@@ -261,7 +262,14 @@ a {
 /* .data_text:hover {
   opacity: 1;
 } */
+/* .work_div:first-child {
+  display: inline-block;
 
+  width: 300%;
+}
+.work_div:not(:first-child) {
+  flex: 1;
+} */
 footer {
   height: 100px;
   width: 100%;
