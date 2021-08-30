@@ -28,7 +28,7 @@ body {
   width: 100%;
 
   background-size: cover;
-  background-image: url("./././photo.jpg");
+  background-image: url("photo.jpg");
 
   background-position: center;
 }
@@ -230,7 +230,7 @@ a {
 }
 
 .img_hovering {
-  background-image: url("./././port.jpg");
+  background-image: url("port.jpg");
   padding: 4%;
   height: 20vw;
   width: 20vw;
